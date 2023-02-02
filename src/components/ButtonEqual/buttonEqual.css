@@ -1,0 +1,30 @@
+.TecladoEqual {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #462878;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  box-shadow: 1px 1px 5px #000;
+}
+
+.TecladoNumber {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #2d2a37;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 5px #000;
+  cursor: pointer;
+}
+
+.btnTecladoEqual span {
+  font-size: 35px;
+  font-family: "Rubik", sans-serif;
+}
